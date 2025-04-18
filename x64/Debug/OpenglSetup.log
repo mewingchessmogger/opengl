@@ -1,1 +1,11 @@
-﻿  OpenglSetup.vcxproj -> C:\d311_Projects\OpenglSetup\x64\Debug\OpenglSetup.exe
+﻿  main.cpp
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(131,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(132,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(136,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(137,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(139,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(140,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(145,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(320,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\d311_Projects\OpenglSetup\OpenglSetup\main.cpp(357,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  OpenglSetup.vcxproj -> C:\d311_Projects\OpenglSetup\x64\Debug\OpenglSetup.exe

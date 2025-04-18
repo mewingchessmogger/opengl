@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
+    <ClCompile Include="imageHeader.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,7 @@
     <ClInclude Include="dependencies\include\GLFW\glfw3.h" />
     <ClInclude Include="dependencies\include\GLFW\glfw3native.h" />
     <ClInclude Include="easyShaders.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\lib\glfw3.lib" />
@@ -148,6 +150,12 @@
   <ItemGroup>
     <None Include="shaders\firstFrag.glsl" />
     <None Include="shaders\firstVert.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\awesomeface.png" />
+    <Image Include="images\container.jpg" />
+    <Image Include="images\crying_cat.jpg" />
+    <Image Include="images\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
